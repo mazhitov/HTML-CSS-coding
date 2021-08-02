@@ -1,0 +1,33 @@
+.services
+    &__row
+        margin: -80px 0 70px
+        text-align: center
+        +medium
+            display: flex
+            flex-wrap: wrap
+    @each $name,$color in $services-backColor
+        &_#{$name}
+            background: $color
+    &__service-col
+        padding: 10px
+        +medium
+            padding: 167px 78px 39px 78px
+    &__title
+        margin: 0 
+        padding-top: 180px
+        position: relative
+        +medium
+            padding-top: 9px
+        &::before
+            content: ""
+            position: absolute
+            bottom: 22%
+            left: 50%
+            transform: translate(-50%,-50%)
+            width: 99px
+            height: 99px
+            border-radius: 50%
+            background: url(../images/services-sprite-ic.png) no-repeat #fff
+@each $name,$position in $services-icSprite
+    .title_#{$name}::before
+        background-position: $position

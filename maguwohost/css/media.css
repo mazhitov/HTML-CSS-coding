@@ -1,0 +1,176 @@
+
+@media screen and (max-width: 1150px) {
+    .clients-block {
+        text-align: center;
+        display: block;
+    }
+
+    .clients-title-block {
+        margin: 0 auto 30px;
+        width: 100%;
+    }
+
+    .reviews-block {
+        justify-content: center;
+    }
+
+    .review-box {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .nav-btn {
+        display: inline-block;
+    }
+    .nav-hidden{
+       height: 0;
+       overflow: hidden;
+    }
+    .main-nav {
+        position: absolute;
+        top: 80%;
+        right: 15%;
+        z-index: 1;
+    }
+  
+}
+@media screen and (max-width: 870px) {
+    .header-inner {
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .main-nav:before {
+        content: "";
+        top: 0%;
+        left: 6%;
+        border-top: 2px solid #ebebeb;
+        border-left: none;
+        width: 100%;
+        height: 0;
+    }
+
+    .box {
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .reviews-block {
+        display: block;
+    }
+
+    .review-box {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .logo {
+        margin-bottom: 40px;
+    }
+
+    .main-nav-list {
+        padding: 0;
+    }
+
+    .form-row {
+        width: 100%;
+    }
+
+    .services-block {
+        background: linear-gradient(to bottom, #202242 0%, #202242 50%, #ffe13e 50%, #ffe13e 100%);
+    }
+
+    .service-boxes {
+        display: block;
+    }
+
+    .service-box p {
+        padding: 4px 15px;
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+    .domain {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {}
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-nav a {
+        font-size: 12px;
+    }
+
+    .main-nav li {
+        margin-left: 15px;
+    }
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    .service-title,
+    .features-title,
+    .features-box-title,
+    .clients-title {
+        font-size: 26px;
+    }
+
+    .form-row {
+        display: block;
+    }
+
+    .form-input {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .form-input::placeholder {
+        font-size: 12px;
+    }
+
+    .features-boxes {
+        display: block;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 0px;
+        padding: 50px;
+    }
+
+    .service-link,
+    .features-box-link {
+        font-size: 12px;
+    }
+
+    .features-subtitle,
+    .clients-subtitle {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .clients-icons-block {
+        margin: 0 auto;
+    }
+
+    .review-box a {
+        width: 55px;
+        height: 55px;
+    }
+}

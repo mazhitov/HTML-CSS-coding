@@ -1,0 +1,279 @@
+@media screen and (min-width: 750px) {
+    .header {
+        margin-bottom: 65px;
+    }
+
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 110px;
+    }
+
+    .header-right {
+        display: flex;
+    }
+
+    .user-cabinet {
+        position: relative;
+        color: #0d3351;
+        text-decoration: none;
+        padding: 15px 54px 0 16px;
+        background: url(../images/ic-user.png) 0 16px no-repeat;
+        letter-spacing: 1px;
+    }
+
+    .user-cabinet::after {
+        content: "";
+        position: absolute;
+        top: 21px;
+        right: 41px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 4px 0 4px;
+        border-color: #0d3351 transparent transparent transparent;
+    }
+
+    .phone-block {
+        text-align: right;
+        margin-top: 9px;
+    }
+
+    .phone-block span {
+        display: inline-block;
+        font-weight: bold;
+        margin-right: 28px;
+        letter-spacing: 1px;
+    }
+
+    .phone-block p {
+        font-size: 11px;
+        margin: 0 5px 0 0;
+    }
+
+    .main-title {
+        font-size: 26px;
+        margin-bottom: 29px;
+    }
+
+    .main-title span {
+        font-size: 72px;
+        word-spacing: -14px;
+    }
+
+    .catalog-card {
+        height: 100%;
+    }
+
+    .catalog-block {
+        margin: 0 -15px;
+    }
+
+    .catalog-item {
+        width: 50%;
+        padding: 0 15px;
+    }
+
+    .card-img {
+        height: 260px;
+    }
+
+    .flag {
+        top: -8px;
+        right: 47px;
+    }
+
+    .price {
+        padding-top: 8px;
+    }
+
+    .card-info {
+        padding: 20px 0 32px 33px;
+    }
+
+    .catalog-btn {
+        margin-bottom: 63px;
+    }
+
+    .footer {
+        text-align: left;
+    }
+
+    .footer-inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-description {
+        display: block;
+        margin: 0 0 0 -1px;
+        letter-spacing: 1px;
+    }
+
+    .footer-description p:nth-child(1) {
+        margin-bottom: 9px;
+    }
+
+    .footer-description p:nth-child(2) {
+        margin-bottom: 7px;
+    }
+
+    .icon-block {
+        margin-right: 7px;
+    }
+
+    .icons {
+        margin-right: 10px;
+    }
+
+    .ic-footer {
+        margin-right: 7px;
+    }
+
+    .footer-info {
+        margin: 3px 2px 0 0;
+    }
+
+    .contact {
+        margin-left: 9px;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .header {
+        background: url(../images/main-pic.jpg) 50% 12% no-repeat;
+        padding-bottom: 196px;
+        margin-bottom: 121px;
+    }
+
+    .header-top {
+        margin-bottom: 50px;
+    }
+
+    .header-info {
+        padding: 0 8px 0 0;
+    }
+
+    .header-btn {
+        padding: 15px 45px 15px 54px;
+    }
+
+    .header::after {
+        bottom: -93px;
+        height: 278px;
+    }
+
+    .logo img {
+        width: 90px;
+        margin-bottom: -4px;
+    }
+
+    .user-cabinet {
+        padding-right: 51px;
+    }
+
+    .phone-block span {
+        margin-right: 39px;
+    }
+
+    .phone-block p {
+        margin-right: 19px;
+    }
+
+    .main-title {
+        font-size: 36px;
+        margin-bottom: 72px;
+    }
+
+    .main-title span {
+        font-size: 100px;
+        padding: 63px 0 0 25px;
+    }
+
+    .card-block h2 {
+        margin-bottom: 56px;
+    }
+
+    .flag {
+        top: -6px;
+        right: 62px;
+    }
+
+    .catalog-item {
+        max-width: 585px;
+        margin-bottom: 47px;
+    }
+
+    .card-info {
+        padding: 10px 0 39px 29px;
+    }
+
+    .card-2 .card-info {
+        padding: 10px 0 39px 37px;
+    }
+
+    .card-title {
+        margin-bottom: 8px;
+    }
+
+    .card-2 .card-title::after {
+        top: 10px;
+        right: -20px;
+    }
+
+    .newline {
+        display: inline-block;
+    }
+
+    .price span {
+        padding-left: 27px;
+    }
+
+    .card-3,
+    .card-4 {
+        margin-bottom: 100px;
+    }
+
+    .card-3 .flag {
+        top: -9px;
+        right: 65px;
+    }
+
+    .card-3 .card-info,
+    .card-4 .card-info {
+        padding: 16px 0 0 35px;
+    }
+
+    .card-3 .card-title::after,
+    .card-4 .card-title::after {
+        top: 11px;
+        right: -18px;
+    }
+
+    .card-3 .price {
+        padding-top: 7px;
+    }
+
+    .catalog-btn {
+        margin-bottom: 69px;
+    }
+
+    .icon-block {
+        margin-right: 278px;
+    }
+
+    .icon-block p {
+        margin-bottom: 11px;
+    }
+
+    .contact {
+        margin: 0 0 8px 13px;
+    }
+
+    .support-text {
+        letter-spacing: 0;
+        margin-left: 11px;
+    }
+
+}

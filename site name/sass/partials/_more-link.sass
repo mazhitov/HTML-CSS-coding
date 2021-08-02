@@ -1,0 +1,28 @@
+.more-link
+    display: inline-block
+    padding: 6px 17px 5px 20px
+    font-size: 15px
+    text-transform: uppercase
+    position: relative
+    &::after
+        content: ""
+        position: absolute
+        bottom: -21%
+        left: 50%
+        transform: translateX(-50%)
+        width: 0
+        height: 0
+        border-style: solid
+        border-width: 10px 11px 0 11px
+        border-color: #245963 transparent transparent transparent
+    &_opacity
+        font-family: 'Fjalla One', Arial, sans-serif
+        color: #fff
+        background: #245963
+        border: none
+        outline: none
+        margin-bottom: 91px
+        height: 36px
+        width: 102px
+        +medium
+            max-width: 49%

@@ -1,0 +1,18 @@
+=small
+    @media screen and ( min-width: 576px )
+        @content
+=medium
+    @media screen and ( min-width: 768px )
+        @content
+
+=make-cols
+    @for $i from 1 through 12
+        $width-col: $i * 100% / 12
+        &-#{$i}
+            width: $width-col
+
+=form-placeholder
+    input::placeholder
+        @content
+    textarea::placeholder
+        @content

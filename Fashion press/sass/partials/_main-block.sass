@@ -1,0 +1,58 @@
+.main-block
+    background: #eee
+    grid-template-rows: auto minmax(70px, auto) 1fr
+    padding: 5px 0
+    margin-bottom: 37px
+    &__sidebar-title
+        background: $colorRed
+        padding: 14px 0 14px 20px
+        color: #fff
+        text-transform: uppercase
+        font-size: 14px
+        margin: 0
+        font-weight: 500
+    &__list
+        margin: 0
+        padding: 0
+        list-style: none
+        
+    &__item
+        padding: 12px 0 14px 38px
+        border-top: 1px solid #eaeaea
+        border-bottom: 1px solid #ededed
+        position: relative
+    &__active
+        background: #fff
+        border-right: 5px solid $colorRed
+        margin-right: -2px
+    &__link
+        text-decoration: none
+        text-transform: capitalize
+        color: #333333
+        font-size: 15px
+        &::before
+            content: ""
+            background: url(../images/sidebar_list_marker.png) 50% no-repeat
+            width: 6px
+            height: 11px
+            position: absolute
+            top: 33%
+            left: 3%
+            +medium
+                left: 7%
+    &__sidebar
+        grid-column: 2/9
+        margin-right: 5px
+        border-right: 1px solid #c1c1c1
+        +medium
+            grid-column: 2/4
+    &__content
+        grid-column: 2/9
+        justify-self: end
+        +medium
+            grid-column: 4/9
+    &__rows
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        padding-bottom: 123px

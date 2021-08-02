@@ -1,0 +1,49 @@
+.card
+    padding: 7px
+    background: #fff
+    width: 100%
+    margin-bottom: 7px
+    +small
+        width: 49%
+    +medium
+        width: 32.7%
+    &__img-block
+        margin-bottom: 7px    
+    &__img
+        width: 100%
+        height: auto
+    &__title
+        margin: 0 0 5px
+        text-transform: capitalize
+        font-weight: 500
+        color: #565555
+    &__subtitle
+        text-transform: capitalize
+        color: #565555
+        margin: 0 0 3px
+    &__price-block
+        display: flex
+        border-top: 1px solid #ededed
+        justify-content: space-between
+        color: #3e3f3f
+        font-weight: 700
+        text-align: center
+        padding-top: 3px
+    &__price
+        font-size: 24px
+        margin: 0
+        width: 48%
+        border-right: 1px solid #ededed
+    &__dollar
+        font-size: 14px
+    &__cents
+        font-size: 17px
+        vertical-align: top
+    &__btn
+        background: $colorRed
+        color: #fff
+        border: none
+        border-radius: 2px
+        height: 26px
+        width: 103px
+        text-transform: uppercase

@@ -1,0 +1,32 @@
+.footer
+    background: #245963
+    padding: 32px 0 37px
+    text-align: center
+    &__about
+        font-size: 15px
+        max-width: 366px
+        margin: 0 auto 54px
+        position: relative
+        +small
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &::after
+            content: ""
+            position: absolute
+            bottom: -42%
+            right: 11%
+            width: 283px
+            height: 1px
+            border-bottom: 1px solid #387d89
+    &__site
+        color: #fdbd1f
+    
+    &__ic
+        display: inline-block
+        height: 37px
+        width: 37px
+        background: #fff
+        color: #245963
+        border-radius: 50%
+        line-height: 37px

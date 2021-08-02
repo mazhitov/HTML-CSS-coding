@@ -1,0 +1,147 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 14px;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.4;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(../images/main-pic.png) 50% 85% no-repeat;
+    background-size: 92%;
+    margin-bottom: 25px;
+}
+
+.header-top {
+    text-align: center;
+    color: #424242;
+    font-size: 25px;
+    line-height: 48px;
+    padding-bottom: 27%;
+}
+
+.tel {
+    font-size: 28px;
+    color: #000;
+}
+
+.contacts-link {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    color: #03a9d6;
+}
+
+.main-nav {
+    background: linear-gradient(to bottom, #04b1dd 0%, #0194c4 100%);
+}
+
+.main-nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding: 10px 8px 10px 0;
+}
+.main-nav .end-border {
+    border-right: none;
+}
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 45px 0 0; 
+    font-size: 18px;
+}
+.main-title {
+    color: #02a0ce;
+    text-transform: uppercase;
+}
+.news-title {
+    font-size: 23px;
+    margin: 30px 0 0;
+    font-weight: normal;
+}
+.kitchen-title {
+    font-size: 26px;
+    margin: 30px 0 35px;
+    font-weight: normal;
+}
+.blocks {
+    float: left;
+    box-sizing: border-box;
+    padding-bottom: 70px;
+}
+.news {
+    width: 31%;
+    padding-right:  35px;
+}
+.kitchens {
+    width: 69%;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+}
+.news-list li {
+    margin-bottom: 15px;
+}
+.news-list a {
+    line-height: 1.1;
+    color:#03a9d7;
+}
+.news-first-link {
+    padding-bottom: 10px;
+}
+.kitchen-boxes-title {
+    font-size: 16px;
+    margin: 0;
+}
+.kitchen-photo {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+.studio-text {
+    margin: 0 0 25px 0;
+}
+.kitchen-text {
+    margin: 0;
+}
+.kitchen-boxes {
+    padding-bottom: 20px;
+}
+
+.footer {
+    background: url(../images/footer-border.jpg) 0 0 repeat-x;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 43px;
+    padding: 15px 0 25px;
+    
+}
+.footer-text {
+    color: #424242;
+    margin: 0;
+}
+
+.footer-tel {
+    color: #000;
+    margin-right: 10px;
+}

@@ -1,0 +1,257 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #515151;
+	font-size: 17px;
+	line-height: 1.6;
+	background-color: #fff;
+}
+.container {
+	max-width: 1032px;
+	padding: 0 22px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 28px 22px;
+	text-transform: uppercase;
+}
+.header h1 {
+	display: inline-block;
+	font-size: 31px;
+	color: #6d6e70;
+	margin-left: 10px;
+	font-weight: 400;
+}
+.main-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.main-nav li {
+	display: inline-block;
+	margin-left: 27px;
+}
+a {
+	text-decoration: none;
+}
+.main-nav a {
+	font-size: 13px;
+	color: #666666;
+}
+.main-block {
+	position: relative;
+}
+.main-block img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.main-info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: #fff;
+}
+.main-block-title {
+	font-size: 49px;
+	margin-bottom: 50px;
+	font-weight: 400;
+}
+.main-block-title span {
+	display: block;
+	font-size: 35px;
+}
+.main-btn-link {
+	display: inline-block;
+	border: none;
+	padding: 27px 44px;
+	border-radius: 8px;
+	background: #99c50a;
+	color: #fff;
+	font-size: 20px;
+}
+.text-block {
+	padding: 45px 22px 87px;
+	text-align: center;
+}
+.text-block-title {
+	margin: 45px 0;
+	font-weight: 400;
+	font-size: 31px;
+}
+.description-1 {
+	font-size: 20px;
+	line-height: 1.5;
+}
+.description-2 {
+	font-size: 17px;
+}
+.properties-buyers-block {
+	background: linear-gradient(to right, #e2f8ff 0%, #e2f8ff 50%, #f5f9eb 50%, #f5f9eb 50%, #f5f9eb 100%);
+}
+.properties-buyers-block-info {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+}
+.find-box{
+	width: 50%;
+	padding: 41px 0 44px 190px;
+	position: relative;
+}
+.find-box::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 76px;
+	left: 0;
+	flex-shrink: 0;
+	width: 133px;
+	height: 133px;
+	background: url(../images/property-buyers-ic.png) no-repeat;
+}
+.properties::before {
+	top: 60px;
+	transform: translate(-30px);
+	background-position: 0 0;
+}
+.buyers::before {
+	left: 20px;
+	background-position: -150px;
+}
+.find-title {
+	font-size: 23px;
+	font-weight: 700;
+	margin: 0 0 33px;
+}
+.find-box p {
+	margin-bottom: 25px;
+}
+.find-btn-link {
+	display: inline-block;
+	padding: 20px 24px ;
+	border-radius: 6px;
+	background: #26a6d1;
+	color: #fff;
+	border: none;
+}
+.buyers button {
+	background: #add136;
+
+}
+.featured-project-blocks {
+	padding: 75px 22px 83px;
+	text-align: center;
+}
+.featured-project-title {
+	font-size: 29px;
+	text-transform: capitalize;
+}
+.featured-project-text {
+	margin-bottom: 34px;
+}
+.cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.Ontario {
+	width: 299px;
+	background-color: #f9f9f9;
+	border-radius: 7px;
+	color: #484848;
+	display: flex;
+	flex-direction: column;
+}
+.title-text {
+	padding: 26px 22px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.title-text h4 {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 0 16px 0;
+	font-weight: 700;
+}
+.title-text p {
+	padding-bottom: 30px;
+	font-size: 14px;
+	line-height: 22px;
+	border-bottom: 1px solid #d6d6d6;
+	color: #8a8a8a;
+	flex-grow: 1;
+}
+.title-text a {
+	display: inline-block;
+	align-self: flex-end;
+	margin-right: 15px;
+	font-size: 16px;
+	color: #484848;
+	position: relative;
+	padding-right: 20px;
+	text-transform: capitalize;
+}
+.title-text a::after {
+	content: "";
+	position: absolute;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 0 8px 12px;
+	border-color: transparent transparent transparent #add136;
+	top:3px;
+	right: 0;
+}
+.card-img {
+	position: relative;
+}
+.card-img::before{
+	display: block;
+	content: "";
+	background: url(../images/new-ic.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 74px;
+	height: 74px;
+}
+.GBP {
+	position: absolute;
+	right: 14px;
+	bottom: 17px;
+	display: inline-block;
+	padding: 11px;
+	background: #26a6d1;
+	border-radius: 4px;
+	color: #fff;
+}
+.GBP span {
+	font-weight: 700;
+}
+.footer {
+	padding: 28px 0 31px;
+	background: #ededed;
+	
+}
+.footer p {
+	text-align: center;
+	color: #484848;
+	font-size: 14px;
+	margin: 0;
+}

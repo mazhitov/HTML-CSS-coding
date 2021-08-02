@@ -1,0 +1,53 @@
+.header
+    grid-template-rows: repeat(2, 70px)
+    background: #f7f7f7
+    +small
+        grid-template-rows: 70px
+        padding: 0 15px
+    &__logo
+        grid-column: 1/9
+        justify-self: center
+        +small
+            grid-column: 2/4
+    &__userbar
+        display: flex
+        grid-column: 1/9
+        background: #eee
+        font-size: 14px
+        justify-self: center
+        border-right: 2px solid #fff
+        +small
+            grid-column: 4/9
+            justify-self: end
+    &__btn
+        padding: 0 20px
+        border: none
+        border-right: 2px solid #fff
+        font-weight: 500
+        margin-right:3px
+    &__bag
+        display: inline-block
+        padding: 0 5px
+        align-self: center
+        color: $colorRed
+        text-decoration: none
+        
+    &__count-bag
+        font-size: 12px
+        color: #333
+        padding-right: 25px
+        margin-right: 10px
+        position: relative
+        
+        &::after
+            content: ""
+            position: absolute
+            top: 41%
+            left: 75%
+            transform: translate(-50%,-50%)
+            width: 20px
+            height: 19px
+            background: url(../images/bag-pic.png) 0 no-repeat
+            
+    
+        

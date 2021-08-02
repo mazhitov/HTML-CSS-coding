@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before
+    box-sizing: border-box
+body
+    font-family: 'Roboto', Arial , sans-serif
+    font-weight: 500
+    color: #565555
+    background: url(../images/background.jpg) 0% -16% no-repeat
+    background-size: cover
+    font-size: 13px
+
+.all-page
+    display: grid  
+    grid-template-columns: 1fr
+    grid-template-rows: minmax(70px, auto) auto  repeat(2, auto) 1fr
+    min-height: 100vh
+
+.grid
+    display: grid
+    grid-template-columns: 1fr repeat(7, minmax(auto, 138px)) 1fr

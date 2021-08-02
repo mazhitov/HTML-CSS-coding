@@ -1,0 +1,86 @@
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #515151;
+	font-weight: 500;
+}
+.main-block {
+	background: url(../images/main-pic.jpg) 50% 100% no-repeat;
+	background-size: cover;
+	padding: 20% 0 15%; 
+}
+.title {
+	font-weight: 800;
+	font-size: 24px;
+}
+.subtitle {
+	max-width: 700px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.gray-block {
+	background: #f9f9f9;
+}
+.service-box-title {
+	background: url(../images/ic-1.png) top center no-repeat;
+	padding-top: 30%;
+	font-size: 14px;
+	font-weight: 500;
+}
+.freshIdeas {
+	background-image: url(../images/ic-2.png);
+}
+.stongFoundations {
+	background-image: url(../images/ic-3.png);
+}
+.greatSupport {
+	background-image: url(../images/ic-4.png);
+}
+.services-col-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.find-block-title {
+	font-weight: 800;
+	font-size: 24px;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.talent-list {
+	list-style: none;
+	padding: 0;
+}
+.talent-list li::before {
+	content: "";
+	position: absolute;
+	background: url(../images/arrow.png) 0 0 no-repeat;
+	top: 50%;
+	left: 1%;
+	transform: translateY(-50%);
+	width: 12px;
+	height: 13px;
+}
+.card-link,
+.card-title {
+	font-size: 12px;
+	font-weight: 800;
+}
+.btn-violet {
+	background: #c42fc9;
+}
+.btn-violet.focus, .btn-violet:focus {
+	background: #6b1b5a;
+	border-color: #6b1b5a;
+	outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(196, 47, 201,1);
+}
+
+.btn-violet:hover {
+    color: #212529;
+	background: #6b1b5a;
+	border-color: #6b1b5a;
+}
+
